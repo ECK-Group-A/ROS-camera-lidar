@@ -16,7 +16,7 @@ install curl if not installed yet <br />
 
 when the installation is succesful, ROS can be used. A useful thing to add to the bash, is the following command:
 
-'$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc'
+`$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc`
 
 After doing this command, it is not required anymore when opening a new terminal to add every time the source command for ROS.
 
