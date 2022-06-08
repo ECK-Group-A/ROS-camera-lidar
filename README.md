@@ -20,7 +20,15 @@ when the installation is succesful, ROS can be used. A useful thing to add to th
 
 After doing this command, it is not required anymore when opening a new terminal to add every time the source command for ROS.
 
-To make use of ROS type: `$ roscore` and open up a new terminal.  
+To make use of ROS type: `$ roscore` and open up a new terminal.
+
+Another useful feature to install is the command some python functions and rosdep. This can be done as followed:
+
+`$ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential'
+
+`$ sudo rosdep init`
+
+`$ sudo rosdep update`
 
 # Lidar
 
